@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Frogger</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    
+  </head>
+
+  <body>
+    <img src="styles/frogger-frog.png" alt="side of cabinet" class="leftlogo">
+    <div id="game">
+
+
+      <div id="main-menu"class="screen">
+        <img src="styles/frogger-logo.png" alt="logo of frogger" class="logo">
+        <ul class="menu">
+          <li><button id = "id-new-game">New&nbsp;Game</button></li>
+          <li><button id = "id-high-scores">High&nbsp;Scores</button></li>
+          <li><button id = "id-controls">Controls</button></li>
+          <li><button id = "id-credits">Credits</button></li>
+        </ul>
+      </div>
+
+      <div id="game-play" class="screen">
+        <canvas id = "id-canvas" width = "1000" height = "1000" style = "width: 45vw; height: 45vw"></canvas>
+      </div>
+
+      <div id="high-scores" class="screen">
+        <h1>High Scores</h1>
+        <ul class = "menu">
+          <li id="id-score-5"></li>
+          <li id="id-score-4"></li>
+          <li id="id-score-3"></li>
+          <li id="id-score-2"></li>
+          <li id="id-score-1"></li>
+          <li><button id = "id-high-scores-back">Back</button></li>
+        </ul>
+      </div>
+
+      <div id="controls" class="screen">
+        <h1>Customize Controls</h1>
+        <ul class = "menu">
+          <li><button id = "id-controls-left">Rotate Left: </button></li>
+          <li><button id = "id-controls-right">Rotate Right: </button></li>
+          <li><button id = "id-controls-up">Up: </button></li>
+          <li><button id = "id-controls-down">Down: </button></li>
+          <li><button id = "id-controls-back">Back</button></li>
+        </ul>
+      </div>
+
+      <div id="credits"class="screen">
+        <h1>Credits</h1>
+        <h1>Created by Jake Pope</h1>
+        <ul class = "menu">
+          <li><button id = "id-credits-back">Back</button></li>
+        </ul>
+      </div>
+
+    </div>
+    <img src="styles/frogger-frogr.png" alt="side of cabinet" class="rightlogo">
+
+
+
+    <script data-main = "scripts/loader" src="scripts/require.js"></script>
+
+
+  </body>
+</html>
