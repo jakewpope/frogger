@@ -1,6 +1,6 @@
 # Frogger
 
-A version of the classic arcade game Frogger served through Node.js
+A version of the classic arcade game Frogger created in JavaScript and served through Node.js
 
 ##### Usage from root directory
 $ npm install
@@ -8,3 +8,5 @@ $ npm install
 $ npm start
 
 The game is hosted at http://localhost:3000/
+
+Starter code provided by the Utah State University department of computer science.
